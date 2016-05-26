@@ -1,0 +1,10 @@
+# Fdb version 3
+["pdflatex"] 1463049683 "abstract.tex" "abstract.pdf" "abstract" 1463049683
+  "/usr/local/texlive/2015/texmf-dist/web2c/texmf.cnf" 1445297872 31985 3b2aa1e4e73426e2011ec5231ac92e0f ""
+  "/usr/local/texlive/2015/texmf-var/web2c/pdftex/pdflatex.fmt" 1462784406 3859654 9b1f5fa823bb940613780cfd4afe1a5c ""
+  "/usr/local/texlive/2015/texmf.cnf" 1462784346 455 5b996dcaa0eb4ef14a83b026bc0a008c ""
+  "abstract.aux" 1463049440 3908 f87ac88dbff05716f51d5d2a1a2f58fd ""
+  "abstract.tex" 1463049683 181 94c868ede07ad11b930d06cff9c74250 ""
+  (generated)
+  "abstract.log"
+  "abstract.pdf"

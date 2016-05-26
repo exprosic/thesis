@@ -1,0 +1,103 @@
+\boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{序言}{1}{chapter*.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {第一章\hspace {0.3em}}KV Framework设计}{2}{chapter.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {1.1}概览}{2}{section.1.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {1.2}键值存储（Key Value Store）介绍}{2}{section.1.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {1.3}Key Value Framework (KVF) 数据模型}{3}{section.1.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {1.4}Key Value Framework (KVF) 体系结构}{3}{section.1.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {第二章\hspace {0.3em}}KV Framework底层管理接口设计}{5}{chapter.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {2.1}概览}{5}{section.2.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {2.2}基本数据结构}{5}{section.2.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.2.1}基本数据结构}{5}{subsection.2.2.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.2.2}字符串结构定义}{5}{subsection.2.2.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {2.3}KVF注册和注销接口}{6}{section.2.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {2.4}KV-LIB 接口}{6}{section.2.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.4.1}kvf\_init()}{6}{subsection.2.4.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.4.2}kvf\_shutdown ()}{6}{subsection.2.4.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.4.3}kvf\_set\_prop()}{7}{subsection.2.4.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.4.4}kvf\_get\_prop()}{7}{subsection.2.4.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.4.5}kvf\_alloc\_buf()}{7}{subsection.2.4.5}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.4.6}kvf\_free\_buf()}{7}{subsection.2.4.6}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.4.7}kvf\_get\_errstr()}{8}{subsection.2.4.7}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.4.8}kvf\_get\_stats()}{8}{subsection.2.4.8}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {2.5}POOL接口}{8}{section.2.5}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.5.1}pool\_create()}{9}{subsection.2.5.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.5.2}pool\_destroy()}{9}{subsection.2.5.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.5.3}pool\_open()}{9}{subsection.2.5.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.5.4}pool\_close()}{9}{subsection.2.5.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.5.5}pool\_set\_prop()}{10}{subsection.2.5.5}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.5.6}pool\_get\_prop()}{10}{subsection.2.5.6}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.5.7}pool\_get\_stats()}{10}{subsection.2.5.7}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {2.6}对象键值接口}{10}{section.2.6}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.6.1}put}{11}{subsection.2.6.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.6.2}get}{11}{subsection.2.6.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.6.3}del}{12}{subsection.2.6.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.6.4}iter\_open}{12}{subsection.2.6.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.6.5}iter\_next}{12}{subsection.2.6.5}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.6.6}iter\_close}{13}{subsection.2.6.6}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {2.7}上层接口}{13}{section.2.7}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.7.1}KVF接口}{13}{subsection.2.7.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.7.2}Pool接口}{14}{subsection.2.7.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.7.3}Pool接口}{14}{subsection.2.7.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {2.8}概览}{16}{section.2.8}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {2.9}YCSB应用模型}{16}{section.2.9}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.9.1}YCSB客户端}{16}{subsection.2.9.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.9.2}Workload}{17}{subsection.2.9.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.9.3}JNI}{18}{subsection.2.9.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.9.4}实现方式}{20}{subsection.2.9.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.9.5}实现流程}{24}{subsection.2.9.5}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.9.6}测试计划}{24}{subsection.2.9.6}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{结论}{28}{chapter*.6}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{致谢}{29}{appendix*.8}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{北京大学学位论文原创性声明和使用授权说明}{30}{appendix*.9}

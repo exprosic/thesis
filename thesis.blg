@@ -1,0 +1,9 @@
+[0] Config.pm:340> INFO - This is Biber 2.4
+[0] Config.pm:343> INFO - Logfile is 'thesis.blg'
+[52] biber-darwin:287> INFO - === Thu May 26, 2016, 14:29:00
+[75] Biber.pm:347> INFO - Reading 'thesis.bcf'
+[162] Biber.pm:741> INFO - Found 0 citekeys in bib section 0
+[163] Utils.pm:147> WARN - The file 'thesis.bcf' does not contain any citations!
+[177] bbl.pm:519> INFO - Writing 'thesis.bbl' with encoding 'UTF-8'
+[177] bbl.pm:615> INFO - Output to thesis.bbl
+[177] Biber.pm:108> INFO - WARNINGS: 1

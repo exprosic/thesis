@@ -1,0 +1,21 @@
+% Copyright (c) 2014,2016 Casper Ti. Vector
+% Public domain.
+
+\begin{cabstract}
+	随着存储技术的迅速发展，当今以KV存储系统为代表的NoSQL数据库出现了百花齐放的状况,在不同的应用领域有着许多针对硬盘或者SSD的开源KV存储项目，然而它们都有着各自定义的KV API接口，上层应用为了实现相同的语义需要针对不同的KV存储分别搭建不同的适配器。为了减少适配器的重复开发，可以提出一个通用的KV框架——KVF ，其定义的API的语义概括了通用的KV模型，使上层应用可以使用一个统一的API接口来访问下层的KV存储。因此，KVF简化了基于KV模型的应用的开发过程。
+
+	为了验证KV Framework(KVF)底层的实用性，我将Fusion-io盘与KVF框架对接，并开发Benchmark框架下的测试工具并进行端到端功能/性能测试。
+
+	YCSB是雅虎云服务测试的简称，是用来测试cloud serving/NoSQL/Key-Value Store的测试工具。由于云服务的流行，传统数据库不能满足可利用性、可扩展性等要求，因此功能简化、一致性简化的NoSQL数据库逐渐流行。然而NoSQL数据库种类繁多，针对不同目的数据库各有权衡（读写性能、延迟和持久性、同步和异步等等），用户和开发人员需要针对不同的应用场景选择合适的数据库。YCSB的目标是提供一个公平测试的平台，为这些数据库提供一个统一的测试方案，从而更公平地在不同的方面衡量不同的数据库性能，从而提供有价值的参考。
+
+	通过将YCSB与KVF进行连接，我们可以验证KVF的性能，为将来KVF与各种NoSQL数据库的整合打好基础。
+
+\end{cabstract}
+
+\begin{eabstract}
+	With the rapid development of storage technology, there exist a variety of NoSQL databases which is represented by KV storage system. There are many open－source KV storage projects for specific disks in different fields. However, their KV APIs are different from each other so upper lever applications have to implement different adapters for different KV storages. To avoid developing different adapters in the same application, we can design a general KV framework, whose API concludes general KV model. Therefore, upper level applications can call unified interface to access lower lever KV storage. In this case, KVF simplifies the process of developing applications which are based on KV model.
+	
+	To testify the utility of KV Framework, I will connect Fusion-disk with KVF and develop a benchmark tool to perform peer-to-peer tests of functionality and performance.
+\end{eabstract}
+
+% vim:ts=4:sw=4
